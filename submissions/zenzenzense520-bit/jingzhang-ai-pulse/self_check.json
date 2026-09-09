@@ -1,5 +1,28 @@
 {
   "schema_version": "0.1.0",
+  "ok": true,
+  "can_enter_formal_review": true,
+  "package_type": "professional_design_package",
+  "review_status": "formal-review-ready",
+  "checked_at": "2026-09-09T09:18:34Z",
+  "gates": {
+    "DETERMINISTIC_VALIDATION": {
+      "result": "pass",
+      "blocking": false
+    },
+    "SPATIAL_REVIEW": {
+      "result": "pass",
+      "blocking": false
+    },
+    "VISUAL_PACKAGING": {
+      "result": "pass",
+      "blocking": false
+    },
+    "PROFESSIONAL_EVIDENCE": {
+      "result": "pass",
+      "blocking": false
+    }
+  },
   "checks": [
     {
       "check_id": "DETERMINISTIC_VALIDATION",

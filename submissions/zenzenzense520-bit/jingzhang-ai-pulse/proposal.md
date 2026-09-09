@@ -122,7 +122,7 @@ Logo 与视觉识别方向建议 **（概念）**：以两条并列钢轨抽象�
 
 总体设计范围的城市更新框架为"绿廊缝合、两翼焕新、三核点亮"。绿廊缝合指以京张遗址公园活力带为南北主轴，缝合被铁路分割的东西城市片区 [data:geometry/green_space.geojson#GREEN-002]；两翼焕新指中关村科技服务翼强化要素服务、小月河场景赋能翼强化场景测试与公共服务；三核点亮指三处重点片区形成可运营的 AI 创新锚点 [data:geometry/key_areas.geojson#PROV-KEY-002]。
 
-用地结构以"中部生态文化、西部科技服务、东部产业生活"为主：提交边界内共划分 25 个用地单元 [data:geometry/land_use.geojson#LU-001]，其中科研用地覆盖 AI 研发与成果转化 [data:geometry/land_use.geojson#LU-013]、商业服务业用地覆盖产业服务与智能消费 [data:geometry/land_use.geojson#LU-010]、公园绿地构成京张智脉绿廊 [data:geometry/land_use.geojson#LU-006]，其余为教育、文化、居住、社区服务、公共广场、留白与道路用地。v1.4 加密后建筑基底总面积为 1,066,517 平方米 [metric:building_footprint_area_sqm]，建筑密度 9.3%，作为概念空间供给基数，不代表审批容积率 [depth:land_use_layout]。
+用地结构以"中部生态文化、西部科技服务、东部产业生活"为主：提交边界内共划分 25 个用地单元 [data:geometry/land_use.geojson#LU-001]，其中科研用地覆盖 AI 研发与成果转化 [data:geometry/land_use.geojson#LU-013]、商业服务业用地覆盖产业服务与智能消费 [data:geometry/land_use.geojson#LU-010]、公园绿地构成京张智脉绿廊 [data:geometry/land_use.geojson#LU-006]，其余为教育、文化、居住、社区服务、公共广场、留白与道路用地。v1.4 加密后建筑基底总面积为 967,480 平方米 [metric:building_footprint_area_sqm]，建筑密度 8.5%，作为概念空间供给基数，不代表审批容积率 [depth:land_use_layout]。
 
 开发强度、建筑高度、建筑密度、绿地率与退线等指标属于官方控规条件，当前 `brief/site-package/ranges/planning_limits.json` 中全部为缺失状态 [source:SITE-PACKAGE]。因此本方案不设定审定容积率或建筑高度，而是在 [depth:development_intensity_controls] 中明确"待正式控规确认"的清单，并以设计建议层级表达建筑体量与界面关系 [depth:height_massing_character]。更新对象采用"保留、改造、新建、留白"四类表达 [depth:retain_renovate_demolish]：教育科研与历史文脉相关建筑建议保留为主，低效产业空间建议改造更新，重点片区关键功能节点建议新建，众智园北侧与城市边缘建议留白弹性空间 [data:geometry/buildings.geojson#BLDG-001]。
 
@@ -276,7 +276,7 @@ AI 场景卡 **（概念）** 共 12 张，其中至少 3 张为产业测试验�
 
 ## 用地、建筑规模与拆改留方案
 
-用地分类统一采用国土空间用地用海分类代码 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]。提交边界内用地单元 25 个，绿地与开敞空间面积 3,232,839 平方米、占比 28.3% [metric:green_ratio] [metric:green_space_area_sqm]，公共空间面积 861,890 平方米、占比 7.6% [metric:public_space_ratio] [metric:public_space_area_sqm]，建筑基底 1,066,517 平方米、建筑密度 9.3% [metric:building_density]。
+用地分类统一采用国土空间用地用海分类代码 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]。提交边界内用地单元 25 个，绿地与开敞空间面积 3,121,432 平方米、占比 27.4% [metric:green_ratio] [metric:green_space_area_sqm]，公共空间面积 830,792 平方米、占比 7.3% [metric:public_space_ratio] [metric:public_space_area_sqm]，建筑基底 967,480 平方米、建筑密度 8.5% [metric:building_density]。
 
 拆改留方案 **（概念）** 以"保留优先、改造为主、新建精准、留白弹性"为原则：文保与教育科研建筑建议保留，低效产业与社区设施建议改造，三核关键节点建议新建，众智园北侧与城市边缘建议留白。所有拆改留表达均为概念建议 [depth:retain_renovate_demolish]，不涉及地块权属与法定审批；控规容积率、建筑高度、建筑密度、绿地率与退线列为待确认事项 [depth:development_intensity_controls]。建筑形态与风貌控制以体量分级、界面连续性和屋顶形态为设计建议 [depth:height_massing_character]，由 A3/A0 图纸与 HTML 可视化表达 [source:SITE-PACKAGE]。
 
@@ -298,7 +298,7 @@ AI 场景卡 **（概念）** 共 12 张，其中至少 3 张为产业测试验�
 
 #### 建筑规模与空间供给
 
-- 建筑基底总面积 1,066,517 平方米、建筑密度 9.3%，作为概念空间供给基数 [metric:building_footprint_area_sqm]。
+- 建筑基底总面积 967,480 平方米、建筑密度 8.5%，作为概念空间供给基数 [metric:building_footprint_area_sqm]。
 - 建议产业空间、人才居住与公共服务按"五三二"概念结构配置，即产业与创新空间约占 50%、居住社区约占 30%、公共服务与配套约占 20%，具体比例以控规与市场评估为准 [depth:land_use_layout]。
 - 新建与改造项目优先利用低效工业与仓储空间，严格控制新增建设用地，突出存量更新导向 [depth:retain_renovate_demolish]。
 
@@ -391,7 +391,7 @@ v1.4 重构分期逻辑：`geometry/phasing.geojson` 中三期 polygon 已全部
 
 ## 指标体系、面积复算与合规矩阵
 
-指标体系分为三类：第一类为可从提交几何直接复算的空间指标，包括提交边界面积 11,412,825 平方米 [metric:site_area_sqm]、三处重点区面积合计 3,692,893 平方米 [metric:key_area_total_sqm]、用地单元数 25 [metric:land_use_count]、绿地面积 3,232,839 平方米与绿地率 28.3% [metric:green_ratio]、公共空间面积 861,890 平方米与占比 7.6% [metric:public_space_ratio]、建筑基底面积 1,066,517 平方米 [metric:building_footprint_area_sqm]、建筑密度 9.3% [metric:building_density]、道路总长 95,524 米 [metric:road_length_m]、慢行绿道长 39,206 米 [metric:greenway_length_m]、近期启动区面积 2,270,832 平方米 [metric:phase_1_area_sqm]、中期 2,449,533 平方米 [metric:phase_2_area_sqm]、远期 6,692,494 平方米 [metric:phase_3_area_sqm]、三期合计 11,412,860 平方米（与边界面积一致）[metric:phasing_total_sqm] 与 AI 场景卡数量 12 [metric:ai_scenario_node_count]；第二类为需要官方控规支撑的管控指标，如容积率与建筑高度，当前列为 unknown [depth:metrics_recalculation]；第三类为需要运营与产业数据持续校准的绩效指标，作为未来评估方向。
+指标体系分为三类：第一类为可从提交几何直接复算的空间指标，包括提交边界面积 11,412,825 平方米 [metric:site_area_sqm]、三处重点区面积合计 3,692,893 平方米 [metric:key_area_total_sqm]、用地单元数 25 [metric:land_use_count]、绿地面积 3,121,432 平方米与绿地率 27.4% [metric:green_ratio]、公共空间面积 830,792 平方米与占比 7.3% [metric:public_space_ratio]、建筑基底面积 967,480 平方米 [metric:building_footprint_area_sqm]、建筑密度 8.5% [metric:building_density]、道路总长 95,524 米 [metric:road_length_m]、慢行绿道长 39,206 米 [metric:greenway_length_m]、近期启动区面积 2,270,832 平方米 [metric:phase_1_area_sqm]、中期 2,449,533 平方米 [metric:phase_2_area_sqm]、远期 6,692,494 平方米 [metric:phase_3_area_sqm]、三期合计 11,412,860 平方米（与边界面积一致）[metric:phasing_total_sqm] 与 AI 场景卡数量 12 [metric:ai_scenario_node_count]；第二类为需要官方控规支撑的管控指标，如容积率与建筑高度，当前列为 unknown [depth:metrics_recalculation]；第三类为需要运营与产业数据持续校准的绩效指标，作为未来评估方向。
 
 合规矩阵覆盖公告 1.3、1.4、1.5 全部任务与 agent.1 至 agent.6 六项智能体任务 [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]，每条任务对应报告章节、几何图层、指标、图纸、HTML 页面、来源、假设与自检项。标准矩阵覆盖城市设计、控规、用地分类等强制标准 [standard:MOHURD-URBAN-DESIGN-MEASURES] [standard:MOHURD-CONTROL-DETAILED-PLANNING] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]；设计深度矩阵覆盖现状诊断、三层框架、空间结构、用地布局、开发强度、建筑形态、拆改留、交通市政、蓝绿空间、重点区详设、项目清单、分期实施、指标复算与风险缺资料 [depth:risk_missing_data]。
 

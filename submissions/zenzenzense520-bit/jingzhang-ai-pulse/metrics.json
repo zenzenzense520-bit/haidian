@@ -55,40 +55,46 @@
     },
     "green_space_area_sqm": {
       "status": "known",
-      "value": 3232839.434,
+      "value": 3121431.983,
       "unit": "sqm",
       "source_files": [
         "geometry/green_space.geojson"
       ],
       "formula": "sum(polygon_area(green_space))",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Area uses projected union of features (EPSG:4548), matching spatial_review."
+      ]
     },
     "public_space_area_sqm": {
       "status": "known",
-      "value": 861890.101,
+      "value": 830791.879,
       "unit": "sqm",
       "source_files": [
         "geometry/public_space.geojson"
       ],
       "formula": "sum(polygon_area(public_space))",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Area uses projected union of features (EPSG:4548), matching spatial_review."
+      ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 1066517.184,
+      "value": 967479.996,
       "unit": "sqm",
       "source_files": [
         "geometry/buildings.geojson"
       ],
       "formula": "sum(polygon_area(building_footprints))",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Area uses projected union of features (EPSG:4548), matching spatial_review."
+      ]
     },
     "green_ratio": {
       "status": "known",
-      "value": 0.283264,
+      "value": 0.273502,
       "unit": "ratio",
       "source_files": [
         "geometry/green_space.geojson",
@@ -96,11 +102,13 @@
       ],
       "formula": "green_space_area_sqm / site_area_sqm",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Area uses projected union of features (EPSG:4548), matching spatial_review."
+      ]
     },
     "public_space_ratio": {
       "status": "known",
-      "value": 0.075519,
+      "value": 0.072795,
       "unit": "ratio",
       "source_files": [
         "geometry/public_space.geojson",
@@ -108,11 +116,13 @@
       ],
       "formula": "public_space_area_sqm / site_area_sqm",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Area uses projected union of features (EPSG:4548), matching spatial_review."
+      ]
     },
     "building_density": {
       "status": "known",
-      "value": 0.093449,
+      "value": 0.084771,
       "unit": "ratio",
       "source_files": [
         "geometry/buildings.geojson",
@@ -120,7 +130,9 @@
       ],
       "formula": "building_footprint_area_sqm / site_area_sqm",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Area uses projected union of features (EPSG:4548), matching spatial_review."
+      ]
     },
     "road_length_m": {
       "status": "known",
