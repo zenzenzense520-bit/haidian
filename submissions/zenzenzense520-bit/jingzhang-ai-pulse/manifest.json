@@ -41,7 +41,7 @@
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "f24f23ffdfbbd79d9a21887ec3173ead6b92fd405d8230f440cbd2713d7323a3"
+      "sha256": "6c6159d037756f88e52d771b2cf4c0ec8359e53f37cf3ce3ecd6fb7d46ab61e4"
     },
     {
       "path": "sources.json",
